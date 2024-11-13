@@ -1,0 +1,93 @@
+:root {
+  --playfair-display: "Playfair Display", serif;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+  --primary-color: #b1454a;
+  --secondary-color: #121212;
+
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+
+  --color-white: #fff;
+  --color-creamson: #fff0de;
+}
+
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 720px;
+}
+
+.about-us__about-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--color-white);
+}
+
+.about-us__about-image div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 32px 64px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-us__sushi-2 {
+  background-image: url("../../assets/about_bg2.png");
+}
+
+.about-us__sushi-3 {
+  background-image: url("../../assets/about_bg1.png");
+  border-bottom: 8px solid var(--color-creamson);
+}
+
+.about-us__about-image div img {
+  width: 225px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.about-us__button {
+  position: absolute;
+  padding: 12px 32px;
+  background-color: var(--secondary-color);
+  color: var(--color-white);
+  font-family: var(--plus-jakarta-sans);
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  border: none;
+  border-radius: 32px 0 0 32px;
+  right: 0;
+  top: 45%;
+  outline: none;
+  cursor: pointer;
+  min-height: 64px;
+  cursor: pointer;
+}
+
+.about-us__button img {
+  height: 12px;
+  width: 12px;
+  object-fit: contain;
+  margin-left: 32px;
+}
+.about-us__about-content {
+  flex: 1;
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.about-us__about-content .sushi__title {
+  margin-top: 16px;
+}
