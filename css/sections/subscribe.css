@@ -1,0 +1,74 @@
+.subscribe {
+  background-color: var(--primary-color);
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../assets/subscribe_bg.png");
+}
+
+.subscribe h2 {
+  font-family: var(--playfair-display);
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 123px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.subscribe p {
+  font-family: var(--plus-jakarta-sans);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 32px;
+}
+
+.subscribe__form {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  min-width: 480px;
+  padding: 14px 14px 14px 24px;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 46px;
+}
+
+.subscribe__form button {
+  min-width: 180px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  background-color: var(--black-400);
+  color: var(--color-white);
+  font-family: var(--plus-jakarta-sans);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 46px;
+}
+
+.subscribe__input {
+  flex: 1;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: var(--color-white);
+  font-size: 16px;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 400;
+  /* opacity: 0.5; */
+}
+
+.subscribe__form input::placeholder {
+  color: var(--color-white);
+  font-size: 16px;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 400;
+  opacity: 0.5;
+}
