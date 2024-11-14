@@ -15,20 +15,22 @@
           <div class="header__overlay"></div>
         </div>
         <ul class="header__menu-list">
-          <li>MENU</li>
-          <li>FOOD</li>
-          <li>SERVICES</li>
-          <li>ABOUT US</li>
+          <li><a href="#popular-food-section">MENU</a></li>
+          <li><a href="#trending-section">FOOD</a></li>
+          <li><a href="#subscribe-section">SERVICES</a></li>
+          <li><a href="#about-us-section">ABOUT US</a></li>
           <img
+            class="header__search"
             src="./assets/search.svg"
             alt="search"
             class="header__search-img"
           />
+          <img class="header__menu" src="./assets/menu.svg" alt="menu" />
         </ul>
       </nav>
     </header>
 
-    <section class="hero">
+    <section id="hero-section" class="hero">
       <div class="hero__image">
         <img src="./assets/sushi-1.png" alt="sushi" />
 
@@ -40,7 +42,7 @@
         <div class="hero__overlay"></div>
       </div>
       <div class="hero-content">
-        <div class="hero-conttent__info">
+        <div class="hero-content__info">
           <h1>Feel the taste of Japanese foods</h1>
           <p>
             Feel the taste of the most popular Japanese foods from anywhere and
@@ -48,7 +50,9 @@
           </p>
 
           <div class="hero-content__buttons">
-            <button class="hero-content__order-button">Order Now</button>
+            <button class="hero-content__order-button">
+              <a href="#popular-food-section">Order Now</a>
+            </button>
             <button class="hero-content__how-to-order-button">
               <img src="./assets/play-circle.svg" alt="" /> How to Order
             </button>
@@ -71,7 +75,7 @@
       </div>
     </section>
 
-    <section class="about-us">
+    <section id="about-us-section" class="about-us">
       <div class="about-us__about-image">
         <div class="about-us__sushi-3">
           <img src="./assets/sushi-3.png" alt="" />
@@ -96,7 +100,7 @@
       </div>
     </section>
 
-    <section class="popular-food">
+    <section id="popular-food-section" class="popular-food">
       <h2 class="popular-food__title">Popular Food / 人気</h2>
       <div class="popular-food__filter">
         <button class="popular-food__button active">All</button>
@@ -158,7 +162,7 @@
       </button>
     </section>
 
-    <section class="trending">
+    <section id="trending-section" class="trending">
       <section class="trending__sushi">
         <div class="trending__content">
           <p class="sushi__subtitle">What’s Trending / トレンド</p>
@@ -280,7 +284,7 @@
       </section>
     </section>
 
-    <secttion class="subscribe">
+    <secttion id="subscribe-section" class="subscribe">
       <h2>
         Get offers straight <br />
         to your inbox
@@ -297,12 +301,14 @@
     </secttion>
 
     <fotter class="footer">
-      <p class="footer__logo">SUSHI<span>MAN</span></p>
+      <p class="footer__logo">
+        <a href="#hero-section">SUSHI<span>MAN</span></a>
+      </p>
       <ul class="footer__menu-list">
-        <li>MENU</li>
-        <li>FOOD</li>
-        <li>SERVICES</li>
-        <li>ABOUT</li>
+        <li><a href="#popular-food-section">MENU</a></li>
+        <li><a href="#trending-section">FOOD</a></li>
+        <li><a href="#subscribe-section">SERVICES</a></li>
+        <li><a href="#about-us-section">ABOUT US</a></li>
       </ul>
 
       <div class="footer__social-links">

@@ -1,8 +1,8 @@
 .header__nav-bar {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 72px;
+  overflow: hidden;
 }
 
 .header__logo {
@@ -47,4 +47,10 @@
 .header__menu-list img {
   height: 24px;
   width: 24px;
+}
+
+.header__menu {
+  height: 24px;
+  width: 24px;
+  display: none;
 }

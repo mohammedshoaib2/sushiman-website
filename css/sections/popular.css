@@ -26,6 +26,8 @@
   font-weight: 600;
   line-height: 76px;
   color: var(--color-white);
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .popular-food__button {

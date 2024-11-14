@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   min-height: 720px;
+  overflow: hidden;
 }
 
 .about-us__about-image {
@@ -67,8 +68,8 @@
   padding: 64px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
+  overflow-wrap: anywhere;
 }
 
 .about-us__about-content .sushi__title {

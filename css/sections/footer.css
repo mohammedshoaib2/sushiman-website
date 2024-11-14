@@ -1,9 +1,11 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   align-items: center;
   padding: 20px 40px;
   flex-wrap: wrap;
+  background-color: var(--color-white);
 }
 
 .footer__logo {
