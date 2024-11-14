@@ -1,0 +1,166 @@
+:root {
+  --playfair-display: "Playfair Display", serif;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+  --primary-color: #b1454a;
+  --secondary-color: #121212;
+
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+
+  --color-white: #fff;
+  --color-creamson: #fff0de;
+}
+
+.trending {
+  position: relative;
+}
+.trending__sushi {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 640px;
+}
+
+.trending__content {
+  padding: 32px 64px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 64px;
+}
+
+.trending__content h3 {
+  margin-top: 16px;
+}
+
+.trending__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.trending__list li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  min-width: 210px;
+}
+
+.trending__list li p {
+  flex: 1;
+  font-family: var(--plus-jakarta-sans);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.trending__check-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+.trending__sushi .trending__image {
+  flex: 1;
+  padding: 32px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--color-white);
+  background-image: url("../../assets/japanese_sushi.png");
+  position: relative;
+}
+
+.trending__arrow {
+  position: absolute;
+}
+
+.trending__sushi-left-arrow {
+  left: -2.5px;
+  top: 12%;
+}
+.trending__sushi-bottom-arrow {
+  bottom: -8px;
+  right: 12%;
+}
+
+.trending__arrow img {
+  height: 100%;
+  width: auto;
+}
+
+.trending__drink {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 640px;
+}
+
+.trending__drink .trending__image {
+  position: relative;
+  flex: 1;
+  padding: 32px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--color-white);
+  background-image: url("../../assets/japanese_drinks.png");
+}
+
+.trending__image > img {
+  height: 260px;
+  width: 254px;
+  object-fit: contain;
+}
+
+.trending__drink-top-arrow {
+  top: -11px;
+  right: 22%;
+}
+.trending__drink-bottom-arrow {
+  right: -2.5px;
+  top: 22%;
+}
+
+.trending__discover-button {
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+  top: 44%;
+  left: 44%;
+  z-index: 1;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.trending__discover-button:hover {
+  background-color: #b1454a;
+  color: #fff;
+}
+.trending__discover-button p {
+  font-size: 18px;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 500;
+  color: var(--color-white);
+}
